@@ -171,7 +171,7 @@ int main()      //funcion principal
         {
             dia_nac=33;
             cout<<"->INGRESE de nuevo el dia, los dias del mes de febrero en este year son hasta el 29.\n";
-        }else if(mes_nac==2 && dia_nac>29)
+        }else if(mes_nac==2 && dia_nac>29)  //condicional para que se ingrese datos en rago de no bisiesto
         {
             dia_nac=33;
             cout<<"->INGRESE de nuevo el dia, los dias del mes de febrero en este year son hasta el 28.\n";
